@@ -1,0 +1,206 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+libaofe+    4558  1.8  1.1 757132 90760 ?        Sl   23:18   0:02 nemo
+libaofe+    3571  1.4  0.7 587712 58712 ?        Ssl  23:04   0:14 /usr/libexec/gnome-terminal-server
+libaofe+    4578  1.3  1.0 591456 83848 ?        Sl   23:18   0:01 xed /home/libaofeng/libaofeng.txt
+libaofe+    1777  0.5  5.4 3151552 440996 ?      Sl   14:06   3:13 /usr/lib/firefox/firefox
+root         748  0.3  1.0 923892 82004 tty7     Ssl+ 13:10   2:07 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+libaofe+    1388  0.3  2.0 3430940 161868 ?      Sl   14:05   1:55 cinnamon --replace
+libaofe+    1900  0.2  4.3 3019144 348980 ?      Sl   14:06   1:25 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 146 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+libaofe+    1879  0.1  4.4 3077864 353608 ?      Sl   14:06   0:53 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 146 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+root        3330  0.1  0.0      0     0 ?        I    23:04   0:01 [kworker/u8:23-i915]
+root        3361  0.1  0.0      0     0 ?        I    23:04   0:01 [kworker/u8:54-i915]
+root        4546  0.1  0.0      0     0 ?        I    23:16   0:00 [kworker/u8:0-i915]
+root           1  0.0  0.1 167612 11556 ?        Ss   13:10   0:01 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    13:10   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   13:10   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   13:10   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   13:10   0:00 [kworker/0:0H-kblockd]
+root           9  0.0  0.0      0     0 ?        I<   13:10   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    13:10   0:00 [ksoftirqd/0]
+root          11  0.0  0.0      0     0 ?        I    13:10   0:03 [rcu_sched]
+root          12  0.0  0.0      0     0 ?        S    13:10   0:00 [migration/0]
+root          13  0.0  0.0      0     0 ?        S    13:10   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    13:10   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    13:10   0:00 [cpuhp/1]
+root          16  0.0  0.0      0     0 ?        S    13:10   0:00 [idle_inject/1]
+root          17  0.0  0.0      0     0 ?        S    13:10   0:00 [migration/1]
+root          18  0.0  0.0      0     0 ?        S    13:10   0:00 [ksoftirqd/1]
+root          20  0.0  0.0      0     0 ?        I<   13:10   0:00 [kworker/1:0H-kblockd]
+root          21  0.0  0.0      0     0 ?        S    13:10   0:00 [cpuhp/2]
+root          22  0.0  0.0      0     0 ?        S    13:10   0:00 [idle_inject/2]
+root          23  0.0  0.0      0     0 ?        S    13:10   0:00 [migration/2]
+root          24  0.0  0.0      0     0 ?        S    13:10   0:00 [ksoftirqd/2]
+root          26  0.0  0.0      0     0 ?        I<   13:10   0:00 [kworker/2:0H-kblockd]
+root          27  0.0  0.0      0     0 ?        S    13:10   0:00 [cpuhp/3]
+root          28  0.0  0.0      0     0 ?        S    13:10   0:00 [idle_inject/3]
+root          29  0.0  0.0      0     0 ?        S    13:10   0:00 [migration/3]
+root          30  0.0  0.0      0     0 ?        S    13:10   0:00 [ksoftirqd/3]
+root          32  0.0  0.0      0     0 ?        I<   13:10   0:00 [kworker/3:0H-kblockd]
+root          33  0.0  0.0      0     0 ?        S    13:10   0:00 [kdevtmpfs]
+root          34  0.0  0.0      0     0 ?        I<   13:10   0:00 [netns]
+root          35  0.0  0.0      0     0 ?        S    13:10   0:00 [rcu_tasks_kthre]
+root          36  0.0  0.0      0     0 ?        S    13:10   0:00 [kauditd]
+root          37  0.0  0.0      0     0 ?        S    13:10   0:00 [khungtaskd]
+root          38  0.0  0.0      0     0 ?        S    13:10   0:00 [oom_reaper]
+root          39  0.0  0.0      0     0 ?        I<   13:10   0:00 [writeback]
+root          40  0.0  0.0      0     0 ?        S    13:10   0:00 [kcompactd0]
+root          41  0.0  0.0      0     0 ?        SN   13:10   0:00 [ksmd]
+root          42  0.0  0.0      0     0 ?        SN   13:10   0:00 [khugepaged]
+root          89  0.0  0.0      0     0 ?        I<   13:10   0:00 [kintegrityd]
+root          90  0.0  0.0      0     0 ?        I<   13:10   0:00 [kblockd]
+root          91  0.0  0.0      0     0 ?        I<   13:10   0:00 [blkcg_punt_bio]
+root          93  0.0  0.0      0     0 ?        I<   13:10   0:00 [tpm_dev_wq]
+root          94  0.0  0.0      0     0 ?        I<   13:10   0:00 [ata_sff]
+root          95  0.0  0.0      0     0 ?        I<   13:10   0:00 [md]
+root          96  0.0  0.0      0     0 ?        I<   13:10   0:00 [edac-poller]
+root          97  0.0  0.0      0     0 ?        I<   13:10   0:00 [devfreq_wq]
+root          98  0.0  0.0      0     0 ?        S    13:10   0:00 [watchdogd]
+root         102  0.0  0.0      0     0 ?        S    13:10   0:00 [kswapd0]
+root         103  0.0  0.0      0     0 ?        S    13:10   0:00 [ecryptfs-kthrea]
+root         105  0.0  0.0      0     0 ?        I<   13:10   0:00 [kthrotld]
+root         106  0.0  0.0      0     0 ?        I<   13:10   0:00 [acpi_thermal_pm]
+root         107  0.0  0.0      0     0 ?        S    13:10   0:00 [scsi_eh_0]
+root         108  0.0  0.0      0     0 ?        I<   13:10   0:00 [scsi_tmf_0]
+root         109  0.0  0.0      0     0 ?        S    13:10   0:00 [scsi_eh_1]
+root         110  0.0  0.0      0     0 ?        I<   13:10   0:00 [scsi_tmf_1]
+root         112  0.0  0.0      0     0 ?        S    13:10   0:00 [scsi_eh_2]
+root         113  0.0  0.0      0     0 ?        I<   13:10   0:00 [scsi_tmf_2]
+root         114  0.0  0.0      0     0 ?        S    13:10   0:00 [scsi_eh_3]
+root         115  0.0  0.0      0     0 ?        I<   13:10   0:00 [scsi_tmf_3]
+root         118  0.0  0.0      0     0 ?        I<   13:10   0:00 [vfio-irqfd-clea]
+root         120  0.0  0.0      0     0 ?        I<   13:10   0:00 [ipv6_addrconf]
+root         130  0.0  0.0      0     0 ?        I<   13:10   0:00 [kstrp]
+root         133  0.0  0.0      0     0 ?        I<   13:10   0:00 [kworker/u9:0]
+root         146  0.0  0.0      0     0 ?        I<   13:10   0:00 [charger_manager]
+root         151  0.0  0.0      0     0 ?        I<   13:10   0:00 [kworker/1:1H-events_highpri]
+root         201  0.0  0.0      0     0 ?        I<   13:10   0:00 [sdhci]
+root         203  0.0  0.0      0     0 ?        I<   13:10   0:00 [cryptd]
+root         206  0.0  0.0      0     0 ?        I<   13:10   0:00 [kworker/3:1H-kblockd]
+root         225  0.0  0.0      0     0 ?        I<   13:10   0:00 [kworker/2:1H-events_highpri]
+root         279  0.0  0.0      0     0 ?        S    13:10   0:00 [jbd2/sda5-8]
+root         280  0.0  0.0      0     0 ?        I<   13:10   0:00 [ext4-rsv-conver]
+root         293  0.0  0.0      0     0 ?        I<   13:10   0:00 [kworker/0:1H-kblockd]
+root         325  0.0  0.2  51772 17880 ?        S<s  13:10   0:00 /lib/systemd/systemd-journald
+root         358  0.0  0.0  23416  7124 ?        Ss   13:10   0:00 /lib/systemd/systemd-udevd
+root         391  0.0  0.0      0     0 ?        S    13:10   0:00 [irq/23-smo8800]
+root         431  0.0  0.0      0     0 ?        I<   13:10   0:00 [cfg80211]
+systemd+     558  0.0  0.1  24316 13824 ?        Ss   13:10   0:00 /lib/systemd/systemd-resolved
+systemd+     559  0.0  0.0  90524  6372 ?        Ssl  13:10   0:00 /lib/systemd/systemd-timesyncd
+root         615  0.0  0.0 241256  7364 ?        Ssl  13:10   0:00 /usr/lib/accountsservice/accounts-daemon
+root         618  0.0  0.0   2540   780 ?        Ss   13:10   0:00 /usr/sbin/acpid
+avahi        623  0.0  0.0   8516  3528 ?        Ss   13:10   0:00 avahi-daemon: running [libaofeng-Latitude-3330.local]
+root         624  0.0  0.0  12484  2856 ?        Ss   13:10   0:00 /usr/sbin/cron -f
+root         625  0.0  0.1  32376  9720 ?        Ss   13:10   0:00 /usr/sbin/cupsd -l
+message+     626  0.0  0.0   8992  5888 ?        Ss   13:10   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         627  0.0  0.2 339052 19984 ?        Ssl  13:10   0:07 /usr/sbin/NetworkManager --no-daemon
+root         638  0.0  0.0  81880  3676 ?        Ssl  13:10   0:00 /usr/sbin/irqbalance --foreground
+root         643  0.0  0.2  42344 20284 ?        Ss   13:10   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         646  0.0  0.1 235088  9356 ?        Ssl  13:10   0:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       648  0.0  0.0 224332  5008 ?        Ssl  13:10   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         650  0.0  0.1  16912  8288 ?        Ss   13:10   0:00 /lib/systemd/systemd-logind
+root         653  0.0  0.1 128936  9804 ?        Ssl  13:10   0:00 /usr/sbin/thermald --no-daemon --dbus-enable
+root         659  0.0  0.1 392676 12864 ?        Ssl  13:10   0:00 /usr/lib/udisks2/udisksd
+root         661  0.0  0.1  14056  9112 ?        Ss   13:10   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        664  0.0  0.0   8328   328 ?        S    13:10   0:00 avahi-daemon: chroot helper
+kernoops     680  0.0  0.0  11248   452 ?        Ss   13:10   0:00 /usr/sbin/kerneloops --test
+kernoops     685  0.0  0.0  11248   448 ?        Ss   13:10   0:00 /usr/sbin/kerneloops
+root         704  0.0  0.1 180432 12664 ?        Ssl  13:10   0:00 /usr/sbin/cups-browsed
+root         705  0.0  0.1 313728 10920 ?        Ssl  13:10   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root         716  0.0  0.0 305904  7056 ?        SLsl 13:10   0:00 /usr/sbin/lightdm
+root         751  0.0  0.0  11500  1900 tty1     Ss+  13:10   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+rtkit        816  0.0  0.0 152924  2916 ?        SNsl 13:10   0:00 /usr/libexec/rtkit-daemon
+root         859  0.0  0.1 255292  9640 ?        Ssl  13:10   0:00 /usr/lib/upower/upowerd
+root         884  0.0  0.1 162120  8888 ?        Sl   13:10   0:00 lightdm --session-child 12 19
+root        1020  0.0  0.0      0     0 ?        D    13:27   0:02 [kworker/u8:1+events_unbound]
+libaofe+    1101  0.0  0.1  18656  9908 ?        Ss   14:05   0:00 /lib/systemd/systemd --user
+libaofe+    1107  0.0  0.0 170928  3736 ?        S    14:05   0:00 (sd-pam)
+root        1115  0.0  0.0      0     0 ?        I    14:05   0:00 [kworker/0:0-events]
+libaofe+    1120  0.0  0.2 1149184 19348 ?       S<sl 14:05   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+libaofe+    1123  0.0  0.0 243220  7828 ?        Sl   14:05   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+libaofe+    1126  0.0  0.3 379484 26192 ?        Ssl  14:05   0:00 cinnamon-session --session cinnamon
+libaofe+    1137  0.0  0.0   8268  5388 ?        Ss   14:05   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+libaofe+    1202  0.0  0.0   6032   460 ?        Ss   14:05   0:00 /usr/bin/ssh-agent /usr/bin/im-launch cinnamon-session-cinnamon
+libaofe+    1211  0.0  0.0      0     0 ?        Z    14:05   0:00 [fcitx] <defunct>
+libaofe+    1213  0.0  0.8 356496 66680 ?        Sl   14:05   0:03 /usr/bin/fcitx -d
+libaofe+    1222  0.0  0.0   7500  3796 ?        Ss   14:05   0:01 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --config-file /usr/share/fcitx/dbus/daemon.conf
+libaofe+    1223  0.0  0.0 305496  7056 ?        Ssl  14:05   0:00 /usr/libexec/at-spi-bus-launcher
+libaofe+    1231  0.0  0.0   5380   204 ?        SN   14:05   0:00 /usr/bin/fcitx-dbus-watcher unix:abstract=/tmp/dbus-WQk81ROwXa,guid=b293df773d26bf4f5b8e2bea5f7ab792 1222
+libaofe+    1232  0.0  0.0   7488  4560 ?        S    14:05   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+libaofe+    1235  0.0  0.0 162860  6412 ?        Sl   14:05   0:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+libaofe+    1248  0.0  0.2 417868 23016 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-color
+libaofe+    1250  0.0  0.2 268036 21164 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-screensaver-proxy
+libaofe+    1251  0.0  0.4 533196 32260 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-power
+libaofe+    1256  0.0  0.3 301940 24300 ?        Sl   14:05   0:01 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-keyboard
+libaofe+    1257  0.0  0.2 683756 23852 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-media-keys
+libaofe+    1258  0.0  0.2 270192 23332 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-xsettings
+libaofe+    1259  0.0  0.2 268440 21140 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-a11y-settings
+libaofe+    1260  0.0  0.2 683164 23844 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-sound
+libaofe+    1264  0.0  0.2 268432 20840 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-housekeeping
+libaofe+    1273  0.0  0.2 268472 21340 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-mouse
+libaofe+    1274  0.0  0.3 335904 27460 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-background
+libaofe+    1279  0.0  0.0 242784  7776 ?        Ssl  14:05   0:00 /usr/libexec/gvfsd
+libaofe+    1294  0.0  0.0 378336  6392 ?        Sl   14:05   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+libaofe+    1295  0.0  0.2 194268 21236 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-cursor
+libaofe+    1300  0.0  0.3 313700 25744 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-wacom
+libaofe+    1307  0.0  0.2 342464 22084 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-automount
+libaofe+    1311  0.0  0.2 415884 21312 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-orientation
+libaofe+    1315  0.0  0.2 268436 21340 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-a11y-keyboard
+libaofe+    1318  0.0  0.3 276360 25328 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-print-notifications
+libaofe+    1319  0.0  0.2 343052 22716 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-xrandr
+libaofe+    1322  0.0  0.2 193856 20584 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-clipboard
+libaofe+    1344  0.0  0.0 156356  5816 ?        Sl   14:05   0:00 /usr/libexec/dconf-service
+colord      1359  0.0  0.1 249288 14524 ?        Ssl  14:05   0:00 /usr/libexec/colord
+libaofe+    1365  0.0  0.1 317100  9204 ?        Ssl  14:05   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+libaofe+    1366  0.0  0.3  58276 30812 ?        S    14:05   0:00 cinnamon-launcher
+libaofe+    1371  0.0  0.1 319792  8720 ?        Ssl  14:05   0:00 /usr/libexec/gvfs-afc-volume-monitor
+libaofe+    1382  0.0  0.0 238940  6028 ?        Ssl  14:05   0:00 /usr/libexec/gvfs-goa-volume-monitor
+libaofe+    1386  0.0  0.4 545284 35612 ?        Sl   14:05   0:00 /usr/libexec/goa-daemon
+libaofe+    1391  0.0  0.1 345292 14940 ?        Sl   14:05   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-printer
+libaofe+    1402  0.0  0.1 317728  8880 ?        Sl   14:05   0:00 /usr/libexec/goa-identity-service
+libaofe+    1408  0.0  0.0 241168  7340 ?        Ssl  14:05   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+libaofe+    1413  0.0  0.0 238760  5964 ?        Ssl  14:05   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+libaofe+    1432  0.0  0.5 429500 42116 ?        Sl   14:05   0:00 /usr/libexec/xapps/sn-watcher/xapp-sn-watcher
+libaofe+    1454  0.0  0.4 281952 33480 ?        Sl   14:05   0:00 blueberry-obex-agent
+libaofe+    1455  0.0  0.0 239960  4856 ?        Sl   14:05   0:00 /usr/libexec/geoclue-2.0/demos/agent
+libaofe+    1456  0.0  0.9 709524 79536 ?        Sl   14:05   0:04 nemo-desktop
+libaofe+    1462  0.0  0.6 705216 54864 ?        Sl   14:05   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+libaofe+    1467  0.0  0.5 397284 40284 ?        Sl   14:05   0:00 nm-applet
+libaofe+    1470  0.0  0.2 193964 20508 ?        Sl   14:05   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+libaofe+    1473  0.0  0.3 279524 31160 ?        Sl   14:05   0:00 cinnamon-killer-daemon
+libaofe+    1490  0.0  0.0  43976  6552 ?        Ss   14:05   0:00 /usr/lib/bluetooth/obexd
+libaofe+    1495  0.0  0.3 393476 25988 ?        Ssl  14:05   0:00 /usr/libexec/evolution-source-registry
+libaofe+    1516  0.0  0.3 1120392 30212 ?       Ssl  14:05   0:00 /usr/libexec/evolution-calendar-factory
+libaofe+    1539  0.0  0.4 676676 33560 ?        Ssl  14:05   0:00 /usr/libexec/evolution-addressbook-factory
+libaofe+    1589  0.0  0.0 316892  7872 ?        Sl   14:05   0:00 /usr/libexec/gvfsd-trash --spawner :1.21 /org/gtk/gvfs/exec_spaw/0
+libaofe+    1597  0.0  0.0 165204  6132 ?        Ssl  14:05   0:00 /usr/libexec/gvfsd-metadata
+libaofe+    1603  0.0  0.9 619488 76432 ?        Sl   14:05   0:01 cinnamon-screensaver
+libaofe+    1667  0.0  0.9 693596 77768 ?        Sl   14:05   0:00 mintUpdate
+libaofe+    1700  0.0  0.4  62336 34280 ?        S    14:05   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+root        1711  0.0  0.0   7024  2292 ?        S    14:05   0:00 dbus-launch --autolaunch b76cc7b1bbdc489e93909d2043031de8 --binary-syntax --close-stderr
+root        1712  0.0  0.0   7092  2616 ?        Ss   14:05   0:00 /usr/bin/dbus-daemon --syslog-only --fork --print-pid 5 --print-address 7 --session
+libaofe+    1752  0.0  0.6 406016 50532 ?        Sl   14:05   0:00 mintreport-tray
+libaofe+    1839  0.0  3.2 2821796 264492 ?      Sl   14:06   0:12 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+libaofe+    1886  0.0  3.6 2904852 292600 ?      Sl   14:06   0:29 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 146 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+libaofe+    1911  0.0  3.0 2697524 246360 ?      Sl   14:06   0:28 /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 146 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+libaofe+    1924  0.0  1.8 2524696 144540 ?      Sl   14:06   0:01 /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 146 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+libaofe+    1940  0.0  2.0 2557168 162936 ?      Sl   14:06   0:01 /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 146 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+libaofe+    2017  0.0  2.1 2575800 172584 ?      Sl   14:06   0:02 /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 240 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+libaofe+    2060  0.0  1.5 2524576 121932 ?      Sl   14:06   0:02 /usr/lib/firefox/firefox -contentproc -childID 9 -isForBrowser -prefsLen 6061 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+libaofe+    2129  0.0  2.5 2594148 205588 ?      Sl   14:06   0:10 /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 6859 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+libaofe+    2339  0.0  0.1 391144  9052 ?        Sl   14:09   0:00 /usr/libexec/gvfsd-network --spawner :1.21 /org/gtk/gvfs/exec_spaw/1
+libaofe+    2345  0.0  0.2 492020 21024 ?        Sl   14:09   0:00 /usr/libexec/gvfsd-smb-browse --spawner :1.21 /org/gtk/gvfs/exec_spaw/2
+libaofe+    2355  0.0  0.1 318044  8312 ?        Sl   14:09   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.21 /org/gtk/gvfs/exec_spaw/3
+root        3155  0.0  0.0      0     0 ?        I    14:16   0:00 [kworker/1:0-events]
+root        3156  0.0  0.0      0     0 ?        I    14:16   0:00 [kworker/3:0-events]
+lp          3165  0.0  0.0  15324  6536 ?        S    14:16   0:00 /usr/lib/cups/notifier/dbus dbus://
+root        3266  0.0  0.0      0     0 ?        I    14:17   0:00 [kworker/2:3-events]
+root        3268  0.0  0.0      0     0 ?        I    14:17   0:00 [kworker/0:2-cgroup_destroy]
+root        3378  0.0  0.0      0     0 ?        S    23:04   0:00 [irq/31-mei_me]
+root        3379  0.0  0.0      0     0 ?        S    23:04   0:00 [irq/17-mmc0]
+libaofe+    3578  0.0  0.0  13672  4912 pts/0    Ss   23:04   0:00 bash
+root        3779  0.0  0.0      0     0 ?        I    23:10   0:00 [kworker/1:1-events]
+root        3783  0.0  0.0      0     0 ?        I    23:10   0:00 [kworker/3:1-mm_percpu_wq]
+libaofe+    4529  0.0  0.0  11508  2288 pts/0    T    23:15   0:00 less
+root        4530  0.0  0.0      0     0 ?        I    23:15   0:00 [kworker/2:1-events]
+libaofe+    4556  0.0  0.0  11508  2320 pts/0    T    23:18   0:00 less
+libaofe+    4590  0.0  0.0  15144  3964 pts/0    R+   23:20   0:00 ps -aux --sort -pcpu

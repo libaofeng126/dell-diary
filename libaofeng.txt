@@ -1,0 +1,207 @@
+    PID TTY      STAT   TIME COMMAND
+      1 ?        Ss     0:01 /sbin/init splash
+      2 ?        S      0:00 [kthreadd]
+      3 ?        I<     0:00 [rcu_gp]
+      4 ?        I<     0:00 [rcu_par_gp]
+      6 ?        I<     0:00 [kworker/0:0H-kblockd]
+      9 ?        I<     0:00 [mm_percpu_wq]
+     10 ?        S      0:00 [ksoftirqd/0]
+     11 ?        I      0:02 [rcu_sched]
+     12 ?        S      0:00 [migration/0]
+     13 ?        S      0:00 [idle_inject/0]
+     14 ?        S      0:00 [cpuhp/0]
+     15 ?        S      0:00 [cpuhp/1]
+     16 ?        S      0:00 [idle_inject/1]
+     17 ?        S      0:00 [migration/1]
+     18 ?        S      0:00 [ksoftirqd/1]
+     20 ?        I<     0:00 [kworker/1:0H-kblockd]
+     21 ?        S      0:00 [cpuhp/2]
+     22 ?        S      0:00 [idle_inject/2]
+     23 ?        S      0:00 [migration/2]
+     24 ?        S      0:00 [ksoftirqd/2]
+     26 ?        I<     0:00 [kworker/2:0H-kblockd]
+     27 ?        S      0:00 [cpuhp/3]
+     28 ?        S      0:00 [idle_inject/3]
+     29 ?        S      0:00 [migration/3]
+     30 ?        S      0:00 [ksoftirqd/3]
+     32 ?        I<     0:00 [kworker/3:0H-kblockd]
+     33 ?        S      0:00 [kdevtmpfs]
+     34 ?        I<     0:00 [netns]
+     35 ?        S      0:00 [rcu_tasks_kthre]
+     36 ?        S      0:00 [kauditd]
+     37 ?        S      0:00 [khungtaskd]
+     38 ?        S      0:00 [oom_reaper]
+     39 ?        I<     0:00 [writeback]
+     40 ?        S      0:00 [kcompactd0]
+     41 ?        SN     0:00 [ksmd]
+     42 ?        SN     0:00 [khugepaged]
+     89 ?        I<     0:00 [kintegrityd]
+     90 ?        I<     0:00 [kblockd]
+     91 ?        I<     0:00 [blkcg_punt_bio]
+     93 ?        I<     0:00 [tpm_dev_wq]
+     94 ?        I<     0:00 [ata_sff]
+     95 ?        I<     0:00 [md]
+     96 ?        I<     0:00 [edac-poller]
+     97 ?        I<     0:00 [devfreq_wq]
+     98 ?        S      0:00 [watchdogd]
+    102 ?        S      0:00 [kswapd0]
+    103 ?        S      0:00 [ecryptfs-kthrea]
+    105 ?        I<     0:00 [kthrotld]
+    106 ?        I<     0:00 [acpi_thermal_pm]
+    107 ?        S      0:00 [scsi_eh_0]
+    108 ?        I<     0:00 [scsi_tmf_0]
+    109 ?        S      0:00 [scsi_eh_1]
+    110 ?        I<     0:00 [scsi_tmf_1]
+    112 ?        S      0:00 [scsi_eh_2]
+    113 ?        I<     0:00 [scsi_tmf_2]
+    114 ?        S      0:00 [scsi_eh_3]
+    115 ?        I<     0:00 [scsi_tmf_3]
+    118 ?        I<     0:00 [vfio-irqfd-clea]
+    120 ?        I<     0:00 [ipv6_addrconf]
+    130 ?        I<     0:00 [kstrp]
+    133 ?        I<     0:00 [kworker/u9:0]
+    146 ?        I<     0:00 [charger_manager]
+    151 ?        I<     0:00 [kworker/1:1H-events_highpri]
+    201 ?        I<     0:00 [sdhci]
+    203 ?        I<     0:00 [cryptd]
+    206 ?        I<     0:00 [kworker/3:1H-events_highpri]
+    225 ?        I<     0:00 [kworker/2:1H-events_highpri]
+    279 ?        S      0:00 [jbd2/sda5-8]
+    280 ?        I<     0:00 [ext4-rsv-conver]
+    293 ?        I<     0:00 [kworker/0:1H-events_highpri]
+    325 ?        S<s    0:00 /lib/systemd/systemd-journald
+    358 ?        Ss     0:00 /lib/systemd/systemd-udevd
+    391 ?        S      0:00 [irq/23-smo8800]
+    431 ?        I<     0:00 [cfg80211]
+    558 ?        Ss     0:00 /lib/systemd/systemd-resolved
+    559 ?        Ssl    0:00 /lib/systemd/systemd-timesyncd
+    615 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
+    618 ?        Ss     0:00 /usr/sbin/acpid
+    623 ?        Ss     0:00 avahi-daemon: running [libaofeng-Latitude-3330.local]
+    624 ?        Ss     0:00 /usr/sbin/cron -f
+    625 ?        Ss     0:00 /usr/sbin/cupsd -l
+    626 ?        Ss     0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    627 ?        Ssl    0:06 /usr/sbin/NetworkManager --no-daemon
+    638 ?        Ssl    0:00 /usr/sbin/irqbalance --foreground
+    643 ?        Ss     0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+    646 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
+    648 ?        Ssl    0:00 /usr/sbin/rsyslogd -n -iNONE
+    650 ?        Ss     0:00 /lib/systemd/systemd-logind
+    653 ?        Ssl    0:00 /usr/sbin/thermald --no-daemon --dbus-enable
+    659 ?        Ssl    0:00 /usr/lib/udisks2/udisksd
+    661 ?        Ss     0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+    664 ?        S      0:00 avahi-daemon: chroot helper
+    680 ?        Ss     0:00 /usr/sbin/kerneloops --test
+    685 ?        Ss     0:00 /usr/sbin/kerneloops
+    704 ?        Ssl    0:00 /usr/sbin/cups-browsed
+    705 ?        Ssl    0:00 /usr/sbin/ModemManager --filter-policy=strict
+    716 ?        SLsl   0:00 /usr/sbin/lightdm
+    748 tty7     Ssl+   1:42 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+    751 tty1     Ss+    0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+    816 ?        SNsl   0:00 /usr/libexec/rtkit-daemon
+    859 ?        Ssl    0:00 /usr/lib/upower/upowerd
+    884 ?        Sl     0:00 lightdm --session-child 12 19
+   1020 ?        I      0:02 [kworker/u8:1-phy0]
+   1101 ?        Ss     0:00 /lib/systemd/systemd --user
+   1107 ?        S      0:00 (sd-pam)
+   1115 ?        I      0:00 [kworker/0:0-events]
+   1120 ?        S<sl   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   1123 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+   1126 ?        Ssl    0:00 cinnamon-session --session cinnamon
+   1137 ?        Ss     0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1202 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/im-launch cinnamon-session-cinnamon
+   1211 ?        Z      0:00 [fcitx] <defunct>
+   1213 ?        Sl     0:02 /usr/bin/fcitx -d
+   1222 ?        Ss     0:01 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --config-file /usr/share/fcitx/dbus/daemon.conf
+   1223 ?        Ssl    0:00 /usr/libexec/at-spi-bus-launcher
+   1231 ?        SN     0:00 /usr/bin/fcitx-dbus-watcher unix:abstract=/tmp/dbus-WQk81ROwXa,guid=b293df773d26bf4f5b8e2bea5f7ab792 1222
+   1232 ?        S      0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+   1235 ?        Sl     0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+   1248 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-color
+   1250 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-screensaver-proxy
+   1251 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-power
+   1256 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-keyboard
+   1257 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-media-keys
+   1258 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-xsettings
+   1259 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-a11y-settings
+   1260 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-sound
+   1264 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-housekeeping
+   1273 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-mouse
+   1274 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-background
+   1279 ?        Ssl    0:00 /usr/libexec/gvfsd
+   1294 ?        Sl     0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+   1295 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-cursor
+   1300 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-wacom
+   1307 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-automount
+   1311 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-orientation
+   1315 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-a11y-keyboard
+   1318 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-print-notifications
+   1319 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-xrandr
+   1322 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-clipboard
+   1344 ?        Sl     0:00 /usr/libexec/dconf-service
+   1359 ?        Ssl    0:00 /usr/libexec/colord
+   1365 ?        Ssl    0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+   1366 ?        S      0:00 cinnamon-launcher
+   1371 ?        Ssl    0:00 /usr/libexec/gvfs-afc-volume-monitor
+   1382 ?        Ssl    0:00 /usr/libexec/gvfs-goa-volume-monitor
+   1386 ?        Sl     0:00 /usr/libexec/goa-daemon
+   1388 ?        Sl     1:36 cinnamon --replace
+   1391 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-printer
+   1402 ?        Sl     0:00 /usr/libexec/goa-identity-service
+   1408 ?        Ssl    0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+   1413 ?        Ssl    0:00 /usr/libexec/gvfs-mtp-volume-monitor
+   1432 ?        Sl     0:00 /usr/libexec/xapps/sn-watcher/xapp-sn-watcher
+   1454 ?        Sl     0:00 blueberry-obex-agent
+   1455 ?        Sl     0:00 /usr/libexec/geoclue-2.0/demos/agent
+   1456 ?        Sl     0:03 nemo-desktop
+   1462 ?        Sl     0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+   1467 ?        Sl     0:00 nm-applet
+   1470 ?        Sl     0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+   1473 ?        Sl     0:00 cinnamon-killer-daemon
+   1490 ?        Ss     0:00 /usr/lib/bluetooth/obexd
+   1495 ?        Ssl    0:00 /usr/libexec/evolution-source-registry
+   1516 ?        Ssl    0:00 /usr/libexec/evolution-calendar-factory
+   1539 ?        Ssl    0:00 /usr/libexec/evolution-addressbook-factory
+   1589 ?        Sl     0:00 /usr/libexec/gvfsd-trash --spawner :1.21 /org/gtk/gvfs/exec_spaw/0
+   1597 ?        Ssl    0:00 /usr/libexec/gvfsd-metadata
+   1603 ?        Sl     0:01 cinnamon-screensaver
+   1667 ?        Sl     0:00 mintUpdate
+   1700 ?        S      0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+   1711 ?        S      0:00 dbus-launch --autolaunch b76cc7b1bbdc489e93909d2043031de8 --binary-syntax --close-stderr
+   1712 ?        Ss     0:00 /usr/bin/dbus-daemon --syslog-only --fork --print-pid 5 --print-address 7 --session
+   1752 ?        Sl     0:00 mintreport-tray
+   1777 ?        Sl     2:32 /usr/lib/firefox/firefox
+   1839 ?        Sl     0:11 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+   1879 ?        Sl     0:51 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 146 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+   1886 ?        Sl     0:28 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 146 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+   1900 ?        Sl     0:52 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 146 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+   1911 ?        Sl     0:25 /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 146 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+   1924 ?        Sl     0:01 /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 146 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+   1940 ?        Sl     0:01 /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 146 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+   2017 ?        Sl     0:02 /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 240 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+   2060 ?        Sl     0:02 /usr/lib/firefox/firefox -contentproc -childID 9 -isForBrowser -prefsLen 6061 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+   2129 ?        Sl     0:09 /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 6859 -prefMapSize 227404 -parentBuildID 20200917005511 -appdir /usr/lib/firefox/browser 1777 true tab
+   2339 ?        Sl     0:00 /usr/libexec/gvfsd-network --spawner :1.21 /org/gtk/gvfs/exec_spaw/1
+   2345 ?        Sl     0:00 /usr/libexec/gvfsd-smb-browse --spawner :1.21 /org/gtk/gvfs/exec_spaw/2
+   2355 ?        Sl     0:00 /usr/libexec/gvfsd-dnssd --spawner :1.21 /org/gtk/gvfs/exec_spaw/3
+   3155 ?        I      0:00 [kworker/1:0-events]
+   3156 ?        I      0:00 [kworker/3:0-cgroup_destroy]
+   3165 ?        S      0:00 /usr/lib/cups/notifier/dbus dbus://
+   3254 ?        I      0:00 [kworker/1:3-events]
+   3255 ?        I      0:00 [kworker/2:0-rcu_gp]
+   3266 ?        I      0:00 [kworker/2:3-events]
+   3268 ?        I      0:00 [kworker/0:2-cgroup_destroy]
+   3330 ?        I      0:00 [kworker/u8:23-events_unbound]
+   3361 ?        D      0:00 [kworker/u8:54+events_unbound]
+   3378 ?        S      0:00 [irq/31-mei_me]
+   3379 ?        S      0:00 [irq/17-mmc0]
+   3380 ?        I      0:00 [kworker/3:2-events]
+   3571 ?        Ssl    0:09 /usr/libexec/gnome-terminal-server
+   3578 pts/0    Ss     0:00 bash
+   3766 ?        I      0:00 [kworker/u8:0-events_unbound]
+   3779 ?        I      0:00 [kworker/1:1-events]
+   3783 ?        I      0:00 [kworker/3:1-events]
+   4425 ?        Ssl    0:00 /usr/lib/packagekit/packagekitd
+   4449 ?        I      0:00 [kworker/u8:2-events_unbound]
+   4487 ?        Ssl    0:00 /usr/lib/NetworkManager/nm-dispatcher
+   4509 pts/0    R+     0:00 ps -ax
